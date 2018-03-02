@@ -1,0 +1,24 @@
+{
+    "discord": {
+        "token":        "YOUR_DISCORD_TOKEN",
+        "shards":       "auto",
+        "lang_ver":     2,
+        "owner_id":     "your_user_id"
+    },
+
+    "localConfig": {
+        "prefix":               "cc!",
+        "lang":                 "en_US",
+        "adminrole":            "NONE",
+        "rooms_enabled":        1,
+        "rooms_visible":        1,
+        "rooms_category":       "NONE",
+        "rooms_ilimit":         60,
+        "rooms_notify":         1,
+        "rooms_required_role":  "NONE",
+        "rooms_auto_bots":      1,
+        "rooms_naming":         1,
+        "rooms_naming_pattern": "Private Room [{user}]"
+    }
+
+}
