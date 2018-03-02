@@ -25,10 +25,6 @@ module.exports = {
                 //add connect and view to @everyone
                 client.channels.get(data[0].channel).overwritePermissions(message.guild.defaultRole, { 'CONNECT': true, 'VIEW_CHANNEL': true })
 
-                if(data[0].text != "NONE"){
-                    client.channels.get(data[0].text).overwritePermissions(message.guild.defaultRole, { 'SEND_M ESSAGES': true, 'VIEW_CHANNEL': true })
-                }
-
                 bot.reply(message, bot.L(config, 'channel', 'roomMadePublic'));
 
             });

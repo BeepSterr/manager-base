@@ -53,10 +53,6 @@ module.exports = {
 
                         client.channels.get(data[0].channel).permissionOverwrites.get(mentions[i].id).delete();
 
-						if(config.text != "NONE"){
-                            client.channels.get(data[0].text).permissionOverwrites.get(mentions[i].id).delete();
-						}
-
                         mentions[i].setVoiceChannel(message.guild.afkChannel)
 
                         addedstring += mentions[i];

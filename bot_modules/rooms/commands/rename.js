@@ -33,14 +33,7 @@ module.exports = {
 				}
 
 			   client.channels.get(data[0].channel).setName(args[1]).then(()=>{
-
-					if(data[0].text != "NONE"){
-						client.channels.get(data[0].text).setName(bot.dashify(args[1])).then(()=>{
-							bot.reply(message, bot.L(config, 'channel', 'roomRenamed', args[1]));
-						});
-					}else{
-						bot.reply(message, bot.L(config, 'channel', 'roomRenamed', args[1]));
-					}
+					bot.reply(message, bot.L(config, 'channel', 'roomRenamed', args[1]));
 			   })
 
 			});

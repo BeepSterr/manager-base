@@ -30,10 +30,6 @@ module.exports = {
                 for (var i = 0; i < data.length; i++) {
 
                     var item = data[i];
-
-                    if(item.text != "NONE"){
-                        client.channels.get(item.text).delete().then(()=>{ });
-                    }
                     
                     client.channels.get(item.channel).delete().then(()=>{
 

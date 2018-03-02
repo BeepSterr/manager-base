@@ -50,10 +50,6 @@ module.exports = {
                     for (var i = 0; i < mentions.length; i++){
 
                         client.channels.get(data[0].channel).overwritePermissions(mentions[i], { 'CONNECT': true, 'VIEW_CHANNEL': true })
-                        
-						if(data[0].text != "NONE"){
-                            client.channels.get(data[0].text).overwritePermissions(mentions[i], { 'SEND_MESSAGES': true, 'VIEW_CHANNEL': true })
-						}
 
                         addedstring += mentions[i];
                         if(i != mentions.length - 1){ addedstring += ", " };
