@@ -36,7 +36,7 @@ module.exports = {
 
 					{
 						name: "Usage",
-						value: "[Command List](https://channel.managerbot.me/commands)\n[Bot Configuration](https://channel.managerbot.me/edit/"+message.guild.id+")"
+						value: "[Command List](https://channel.managerbot.me/commands)\n)"
 					},
 					{
 						name: "Contribute",
