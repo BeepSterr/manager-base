@@ -1,4 +1,4 @@
-# Sourceping
+# Manager-Base
 A Quick and simple selfhostable variant of manager (Channel Manager)
 
 ### Includes
