@@ -7,7 +7,7 @@
     },
 
     "localConfig": {
-        "prefix":               "cc!",
+        "prefix":               "!",
         "lang":                 "en_US",
         "adminrole":            "NONE",
         "rooms_enabled":        1,
